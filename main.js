@@ -18,7 +18,6 @@ renderer.shadowMap.type = THREE.PCFShadowMap;
 const scene = new THREE.Scene();
 
 // Camera setup
-// Camera setup
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.set(0, 2, -8);
 
@@ -120,7 +119,6 @@ const rightWall = new THREE.Mesh(wallGeometry, wallMaterial);
 rightWall.position.set(hallwayWidth / 2 + wallThickness / 2, wallHeight / 2, 0);
 rightWall.receiveShadow = true;
 scene.add(rightWall);
-
 
 
 // Roof setup
